@@ -1,3 +1,5 @@
+# INI GAUSAH DI FORK DULU KOCAK, BELUM JADI, FILENYA JUGA BELUM LENGKAP
+
 # Setup Sendiri Provider "muse" di 9Router
 
 Provider `muse` = endpoint OpenAI-compatible yang request-nya dijawab **live oleh Muse** (agent muse.ai kamu), bukan oleh provider API lain. Cara kerjanya: 9Router meneruskan request ke sebuah *bridge* kecil di VPS, bridge mengantrekan request sebagai file, lalu cron di Muse mengambil antrean itu lewat SSH dan menulis jawabannya kembali.
