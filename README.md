@@ -112,3 +112,5 @@ Harusnya dibalas dalam ~10–20 detik oleh Muse.
 | HTTP 504 "did not answer in time" | Poller tidak jalan atau SSH gagal — cek cron Muse & koneksi SSH |
 | HTTP 429 "bridge busy" | Antrean penuh (5 pending) — tunggu, atau cek poller macet |
 | Jawaban lama sekali | Interval poller terlalu jarang, atau VPS–sandbox lambat |
+
+;,,,;
